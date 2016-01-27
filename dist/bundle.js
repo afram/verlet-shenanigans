@@ -101,11 +101,11 @@
 
 	stage.add(new _wreckingBall2.default(800, 300));
 
-	stage.add(new _tire2.default({ spokes: 5, radius: 20, x: 100, y: 400, pin: false, hideSpokes: false }));
-	stage.add(new _tire2.default({ spokes: 6, radius: 30, x: 1300, y: 700, pin: false, hideSpokes: false }));
-	stage.add(new _tire2.default({ spokes: 7, radius: 40, x: 300, y: 600, pin: false, hideSpokes: false }));
-	stage.add(new _tire2.default({ spokes: 8, radius: 50, x: 400, y: 650, pin: false, hideSpokes: false }));
-	stage.add(new _tire2.default({ spokes: 9, radius: 60, x: 1200, y: 600, pin: false, hideSpokes: false }));
+	stage.add(new _tire2.default({ spokes: 5, radius: 20, x: 100, y: canvas.height - 800, pin: false, hideSpokes: false }));
+	stage.add(new _tire2.default({ spokes: 6, radius: 30, x: 1300, y: canvas.height - 300, pin: false, hideSpokes: false }));
+	stage.add(new _tire2.default({ spokes: 7, radius: 40, x: 300, y: canvas.height - 400, pin: false, hideSpokes: false }));
+	stage.add(new _tire2.default({ spokes: 8, radius: 50, x: 400, y: canvas.height - 450, pin: false, hideSpokes: false }));
+	stage.add(new _tire2.default({ spokes: 9, radius: 60, x: 1200, y: canvas.height - 500, pin: false, hideSpokes: false }));
 
 	function render() {
 	    stage.update();
